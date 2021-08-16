@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>James Buzaid</title>
+</head>
+
+<body>
+  <div class="all">
+    <div class="top">
+      <div class="welcome">
+        <div class="welcometext">
+          <h1 class="hellowave">Hey there! 👋<h1>
+              <hr class="hr_blue">
+              <h2 class="hello">My name is James Buzaid.</h2>
+              <h2 class="hello">I'm an <span class="blue">Computer Science</span> and <span
+                  class="blue">Economics</span>
+                major and a software engineer. This is my website. Scroll down to see some of my projects.
+              </h2>
+              <h2>
+                Here's my <a href="resume.pdf">resume</a>.
+              </h2>
+
+              <p class="icons">
+                <a class="icons" href="mailto:james.buzaid@gmail.com" target="_blank">
+                  <ion-icon class="sidebar" name="mail-outline"></ion-icon>
+                </a>
+
+                <a class="icons" href="https://github.com/buzaidj" target="_blank">
+                  <ion-icon class="sidebar" name="logo-github"></ion-icon>
+                </a>
+
+                <a class="icons" href="https://www.instagram.com/james.buzaid/" target="_blank">
+                  <ion-icon class="sidebar" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a class="icons" href="https://www.linkedin.com/in/james-buzaid/" target="_blank">
+                  <ion-icon class="sidebar" name="logo-linkedin"></ion-icon>
+                </a>
+              </p>
+        </div>
+      </div>
+      <div class="right_side">
+        <div class="right_image">
+          <img src="mirror.JPG" class="top_right">
+          <p class="caption">2020</p>
+        </div>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="middle content">
+        <p>&thinsp;</p>
+        <div class="col_left">
+          <h1 class="title">Projects</h1>
+          <h2 class="title">Mobile ordering</h2>
+          <!-- <p class="middle_para">
+            <i>Description</i>
+          </p> -->
+          <p class="middle_para">
+            I designed, implemented, and improved upon a mobile ordering platform used for an entire year by my social
+            living group due to in-person ordering being unsafe. I talked with our chef and used some of my restaurant
+            experience to come up with a good solution. A member fills out a Google form, that is read by a Raspberry Pi
+            and formatted and printed by a receipt printer.
+          </p>
+          <p class="middle_para">
+            My social living house has a meal plan that serves 90 members lunch and dinner
+            five days a week. Prior to the COVID-19 pandemic, lunch orders were
+            done in short order fashion. Each meal plan member would tell our chef
+            what they wanted for lunch. Dinner was self-serve. In the summer before the fall 2020 semester, I realized
+            that this
+            ordering method would not work. Influenced by my experience working as a cook in restaurants, I decdied an
+            ordering form system similar to DoorDash (for pickup only and without a payment system). After talking with
+            our chef, I decided using a printer printing tickets for orders would make a good solution.</p>
+          <p class="middle_para">
+            On the user side I used a Google Forms form. It is easy for our chef to edit on his tablet to modify. Also,
+            it is easy to read entries from a Raspberry Pi in the kitchen, with calls the Google Sheets API to read a
+            submitted form submitted
+            in a sheet that logs responses. Each of these form entries is validated by checking to make sure the same
+            order wasn't already submitted (a common Google Forms bug). Then they are formatted and printed on a Epson
+            thermal receipt printer, like in a restaurant setting.
+          </p>
+
+          <iframe width="60%" height="80%" src="http://www.youtube.com/watch?v=6WZ--oEMLio">
+          </iframe>
+          <h2 class="title">Node.Spotify</h2>
+          <!-- <p class="middle_para">
+            <i>Description</i>
+          </p> -->
+          <p class="middle_para">
+            I created a JavaScript app that lets a Spotify user generate a directed graph of their top artists to
+            visualize their
+            listening. These nodes of this graph are the users 50 top artists of the past six months and there is an
+            edge from artist a1 to artist
+            a2 if a2 is in the related artists of a1. I learned how authorization flows work, what HTML
+            requests are and how to use AJAX to make them, and how to use jQuery to listen for page activity. In the
+            process I learned how to use JavaScript. </p>
+
+          <a href="http://nodespotify.herokuapp.com/">Check it out here.</a>
+
+          <p>&nbsp;</p>
+
+
+          <!-- <h1 class="title">Interests</h1>
+
+          <p>I'm interested in film photography, pre-1900 </p> -->
+
+
+
+        </div>
+        <!-- <div class="col_right">
+          <h3>Video!</h1>
+
+
+        </div> -->
+
+      </div>
+    </div>
+
+
+  </div>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+</body>
+
+</html>
